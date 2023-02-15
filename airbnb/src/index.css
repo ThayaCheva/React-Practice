@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 550px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+  padding: 20px 36px;
+}
+
+.body {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 20px;
+}
+
+.body img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.body h1 {
+  margin-bottom: 16px;
+
+}
+
+.body p {
+  margin-top: 0px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  padding: 20px;
+  position: relative;
+}
+
+section{ 
+  width: 640px;
+}
+
+.card--list {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.card--img{
+  width: 175px;
+  height: 235px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+}
+
+.price--amount {
+  font-weight: bold;
+}
+
+.card--badge {
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
